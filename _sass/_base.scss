@@ -1,3 +1,5 @@
+$font-stack: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
 html {
     box-sizing: border-box
 }
@@ -175,7 +177,7 @@ html {
 
 h1, h2, h3, h4, h5, h6, p, a, li {
     display: block;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+    font-family: $font-stack;
 }
 
 .display {
@@ -344,7 +346,7 @@ body, * {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+    font-family: $font-stack
 }
 
 .black {
@@ -357,7 +359,7 @@ body {
     display: inline-block;
     width: auto;
     padding: 15px 18px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: $font-stack;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
